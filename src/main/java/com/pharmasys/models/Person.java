@@ -1,4 +1,4 @@
-package main.java.com.pharmasys.models;
+package com.pharmasys.models;
 
 public class Person {
     private String id;
