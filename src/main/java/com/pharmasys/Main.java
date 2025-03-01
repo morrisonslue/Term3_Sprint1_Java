@@ -1,4 +1,4 @@
-package main.java.com.pharmasys;
+package com.pharmasys;
 
 public class Main {
     public static void main(String[] args) {
