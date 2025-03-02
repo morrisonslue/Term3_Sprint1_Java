@@ -13,6 +13,10 @@ public class Doctor extends Person {
         this.patients = new ArrayList<>();
     }
 
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
+    
     // add patient
     public void addPatient(Patient patient) {
         patients.add(patient);
