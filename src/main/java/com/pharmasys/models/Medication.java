@@ -18,6 +18,10 @@ public class Medication {
         this.expiryDate = generateRandomExpiryDate();
     }
 
+    public void setQuantityInStock(int quantity) {
+        this.quantityInStock = quantity;
+    }
+
     // random expiry date generator
     private LocalDate generateRandomExpiryDate() {
         Random rand = new Random();
@@ -46,6 +50,7 @@ public class Medication {
     }
 
     public String toString() {
-        return "Medication: " + name + " | Dose: " + dose + " | Quantity: " + quantityInStock + " | Expiry: " + expiryDate;
+        return "Medication: " + name + " | Dose: " + dose + " | Quantity: " + quantityInStock + " | Expiry: "
+                + expiryDate;
     }
 }
